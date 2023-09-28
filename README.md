@@ -26,6 +26,10 @@ MimicStyler 是一款讓開發者練習和挑戰他們的前端技能的工具�
 待完善之項目:
 更新中...
 
+參考資料:
+https://htmlcsstoimage.com/
+https://codepen.io/rosewang0303/pen/mXrEwQ
+
 UI 介面:
 
 ![Snipaste_2023-09-28_18-12-03](https://github.com/JustinHsu1019/MimicStyler-HTML-CSS-Edition/assets/141555665/ce26cb61-9212-44a7-90ca-d90efb121bda)
