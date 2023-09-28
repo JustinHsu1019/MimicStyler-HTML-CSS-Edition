@@ -11,7 +11,7 @@ $postht = "<html>\n  <body>\n    <div></div>\n    <style>\n      body{\n\n      
 <html lang="zh">
 
 <head>
-    <title>CSS Battlo</title>
+    <title>MimicStyler</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">

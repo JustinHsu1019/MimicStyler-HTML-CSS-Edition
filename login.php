@@ -24,13 +24,13 @@ if (isset($_POST['password'])
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CBO 登入系統</title>
+    <title>MimicStyler 登入系統</title>
     <link rel="stylesheet" href="css/login.css">
 </head>
 
 <body>
     <div class="system_name">
-        <h2>CBO 登入系統</h2>
+        <h2>MimicStyler 登入系統</h2>
     </div>
 
     <div class="login_page">
