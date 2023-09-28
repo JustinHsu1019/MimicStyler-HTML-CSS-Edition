@@ -27,4 +27,6 @@ MimicStyler 是一款讓開發者練習和挑戰他們的前端技能的工具�
 更新中...
 
 UI 介面:
-更新中...
+
+![Snipaste_2023-09-28_18-12-03](https://github.com/JustinHsu1019/MimicStyler-HTML-CSS-Edition/assets/141555665/ce26cb61-9212-44a7-90ca-d90efb121bda)
+![Snipaste_2023-09-28_18-13-42](https://github.com/JustinHsu1019/MimicStyler-HTML-CSS-Edition/assets/141555665/fa37dd04-cc64-4478-9efc-d311ebc2f0b4)
