@@ -39,7 +39,7 @@ if (isset($_POST['password'])
 
                 <h3>登入 Login</h3>
 
-                <form enctype="multipart/form-data" name="form1" method="POST">
+                <form enctype="multipart/form-data" name="form1" method="POST" onsubmit="return checkFile();">
                     <input type="text" id="username" name="username" placeholder="您的 HCTI API User ID" required>
                     <div class="tab"></div>
                     <input type="text" id="password" name="password" placeholder="您的 HCTI API API Key" required>
@@ -61,5 +61,15 @@ if (isset($_POST['password'])
         <h4>By RoseWang</h4> <!-- 此登入頁面建築在 RoseWang 製作的登入頁面模板，原始位置: https://codepen.io/rosewang0303/pen/mXrEwQ-->
     </div>
 </body>
+<script>
+function checkFile() {
+var fileInput = document.getElementById('photo');
+if (fileInput.files.length === 0) {
+    alert('請上傳圖片！');
+    return false;
+}
+return true;
+}
+</script>
 
 </html>
