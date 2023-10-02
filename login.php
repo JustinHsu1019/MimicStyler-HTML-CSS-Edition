@@ -16,7 +16,6 @@ if (isset($_POST['password'])
     exit();
 }
 ?>
-
 <!doctype html>
 <html lang="zh">
 
@@ -49,7 +48,7 @@ if (isset($_POST['password'])
                     <label for="photo" class="custom-file-upload">
                         選擇檔案
                     </label>
-                    <input type="file" name="photo" id="photo" style="display: none;">
+                    <input type="file" name="photo" id="photo" accept=".png, .jpg, .jpeg" style="display: none;">
                     <div class="tab"></div>
                     <input type="submit" value="登入" class="submit">
                 </form>
