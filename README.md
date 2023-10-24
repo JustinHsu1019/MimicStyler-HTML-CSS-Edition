@@ -1,44 +1,42 @@
-# MimicStyler: HTML/CSS Edition（模仿造型師：HTML/CSS 版本）
-## 介紹:
-MimicStyler 是一款讓開發者練習和挑戰他們的前端技能的工具。
-玩家可以選擇一個目標圖片，然後使用HTML和CSS試圖模仿它。
-透過即時的視覺回饋和相似度比對，玩家可以不斷優化和完善他們的代碼。
+# MimicStyler: HTML/CSS Edition
+## Introduction:
+MimicStyler is a tool designed for developers to practice and challenge their frontend skills. Players can choose a target image and attempt to replicate it using HTML and CSS. With real-time visual feedback and similarity comparison, players can continuously refine and perfect their code.
 
-## 主要功能:
-1. 登入介面：玩家輸入他的 HCTI API。
-2. 圖片上傳：玩家上傳他想要模仿的圖片。
-3. 即時編碼和預覽：玩家可以編寫HTML和CSS，並即時看到結果。
-4. 相似度比對：系統會比較玩家創建的圖片和目標圖片的相似度。
-5. 登出功能。
+## Key Features:
+1. Login Interface: Players enter their HCTI API key.
+2. Image Upload: Players upload the image they wish to mimic.
+3. Real-time Coding and Preview: Players can write HTML and CSS and see the results instantly.
+4. Similarity Comparison: The system compares the similarity between the player's created image and the target image.
+5. Logout feature.
 
-## 如何使用:
-1. 首先，執行 start.bat。
-2. 打開瀏覽器輸入 127.0.0.1:8000。
-3. 進入登入介面輸入您的 HCTI API。
-4. 上傳您想要模仿的目標圖片。
-5. 在編碼頁面中編寫HTML和CSS，並按下"確認"查看結果。
-6. 按下"比對"來看您的圖片和目標圖片的相似度。
-7. 若不再使用，按下"登出"。
+## How to Use:
+1. First, run start.bat.
+2. Open a browser and enter 127.0.0.1:8000.
+3. Navigate to the login interface and enter your HCTI API key.
+4. Upload the target image you wish to mimic.
+5. Write HTML and CSS on the coding page and click "Submit" to view the results.
+6. Click "Compare" to see the similarity between your image and the target image.
+7. If done, click "Logout".
 
-## 技術細節:
-1. 前端技術: 使用原生 HTML 和 CSS 來建構基本的網頁介面。
-2. 後端技術: 使用 PHP 設計後端邏輯，尤其在處理 API 請求和圖片生成方面。
-3. 後端技術: 透過 PHP 的 curl 函數呼叫外部 API (https://hcti.io/v1/image) 來生成玩家所編寫的 HTML/CSS 代碼的圖片。
-4. 圖片處理: 使用 JavaScript 函數比較兩張圖片的相似度，該函數計算兩圖片之間的像素差異。
+## Technical Details:
+1. Frontend Technology: Built with native HTML and CSS for a basic web interface.
+2. Backend Technology: Designed with PHP for backend logic, especially in handling API requests and image generation.
+3. Backend Technology: Uses PHP's curl function to call an external API (https://hcti.io/v1/image) to generate images from the player's HTML/CSS code.
+4. Image Processing: Uses a JavaScript function to compare the similarity between two images, calculating pixel differences.
 
-## 待完善之項目:
-1. 優化 API Key 輸入流程：現階段每次透過登入介面輸入 API Key 相對麻煩。我們將尋求更直覺、便捷的方法。
-2. RWD & 自適應畫面設計：讓 MimicStyler 在各種裝置上均能呈現完美介面，為玩家提供更佳的使用體驗。
-3. 優化圖片相似度比對演算法：進一步提高圖片相似度比對的精準度，幫助玩家更準確地了解其模仿效果。
-4. 自主開發圖片生成功能：計畫開發專屬於 MimicStyler 的圖片生成工具，不再依賴於外部 HCTI API，確保更穩定的服務品質。
-5. 優化程式碼輸入界面：提供更多快捷鍵選項，如 Shift + Alt + F 進行自動程式碼排版，大大提升編碼效率。
+## Areas for Improvement:
+1. Optimize API Key Input Process: Currently, entering the API Key through the login interface every time is cumbersome. We're looking for a more intuitive and convenient method.
+2. RWD & Adaptive Screen Design: Ensure MimicStyler displays perfectly on all devices, offering players an enhanced user experience.
+3. Refine Image Similarity Comparison Algorithm: Further improve the accuracy of image similarity comparison, helping players understand their mimicry results more precisely.
+4. Develop In-house Image Generation Tool: Plan to develop a dedicated image generation tool for MimicStyler, eliminating reliance on the external HCTI API, ensuring more stable service quality.
+5. Optimize Code Input Interface: Offer more shortcut options, like Shift + Alt + F for automatic code formatting, significantly boosting coding efficiency.
 
-## 參考資料:
+## References:
 1. https://htmlcsstoimage.com/
 2. https://codepen.io/rosewang0303/pen/mXrEwQ
 3. https://cssbattle.dev/
 
-## UI 介面:
+## UI Interface:
 
 ![Snipaste_2023-09-28_18-12-03](https://github.com/JustinHsu1019/MimicStyler-HTML-CSS-Edition/assets/141555665/ce26cb61-9212-44a7-90ca-d90efb121bda)
 ![Snipaste_2023-09-28_18-13-42](https://github.com/JustinHsu1019/MimicStyler-HTML-CSS-Edition/assets/141555665/fa37dd04-cc64-4478-9efc-d311ebc2f0b4)
